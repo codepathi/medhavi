@@ -1,0 +1,22 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+    padding: 12px 25px;
+    font-size: 0.9em;
+}
+
+.leftTopNav span{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.rightTopNav{
+    display: flex;
+    gap: 25px;
+    padding-right: 30px;
+    align-items: center;
+}

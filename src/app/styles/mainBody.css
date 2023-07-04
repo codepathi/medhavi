@@ -1,0 +1,75 @@
+.selectorTab{
+    display: flex;
+    justify-content: space-between;
+}
+
+.containerMain{
+    flex-grow: 1
+}
+
+.buttons{
+    display: flex;
+    gap: 10px;
+}
+
+.button{
+    background-color: none;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.9em;
+}
+
+.selected{
+    background-color:  #2BB8D6;
+    color: white;
+}
+
+.gradeBtn{
+    border-radius: 20px;
+    padding: 10px 40px;
+    margin-top: 5px;
+}
+
+.gradedSelected{
+    background-color: #37B76C;
+    color: white;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0 25px;
+    border-radius: 30px;
+    background: #9A9A9A1A;
+    color: grey;
+    height: 40px;
+}
+
+/* .userGrade{
+    overflow-y: scroll;
+    height: 500px;
+} */
+
+.searchInput{
+    background-color: transparent;
+    font-size: 0.8em;
+    color: grey;
+}
+
+.userContainer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.userContainerLeft{
+    display: flex;
+    gap: 10px;
+}
+
+.userDetail{
+    display: flex;
+    flex-direction: column;
+}
